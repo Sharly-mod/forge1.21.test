@@ -1,0 +1,24 @@
+modLoader="javafml" #mandatory
+loaderVersion="[47,)" # Adjust according to your Forge version
+license="MIT" # Or your actual license
+
+[[mods]]
+modId="tutorialmod" # Replace with your actual mod ID
+version="0.0.1"
+displayName="Mod de test"
+authors="Sharly"
+description='''A cool mod for Forge.'''
+
+[[dependencies.TutorialMod]] # Make sure this is correctly replaced
+modId="forge"
+mandatory=true
+versionRange="[47.0.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.TutorialMod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20,1.21)" # Ensure this matches your Minecraft version
+ordering="NONE"
+side="BOTH"
